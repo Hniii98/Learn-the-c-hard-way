@@ -104,5 +104,5 @@ int main(int argc, char *argv[])
  * 哈哈哈，当然是if
  *
  * #5
- * 如果在if代码块外写了个braek,那么不会进入if块.如果把它移进if代码块，当i不的直小于2时,default模块的语句也会执行。
+ * 如果在if代码块外写了个braek,那么不会进入if块.如果把它移进if代码块，当if条件不满足时，default模块的代码始终会运行。
  */
