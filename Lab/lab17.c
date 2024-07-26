@@ -89,7 +89,11 @@ struct Connection *Database_open(const char *filename, char mode, int max_data, 
 	if(mode == 'c')
 	{
 		conn->file = fopen(filename, "w"); // 如果文件存在，则将其内容清空。如果文件不存在，创建该文件
-		
+	
+		conn->db->max_data = max_data;
+		conn->db->max_rows = max_rows;
+
+
 		conn->db->rows = malloc(sizeof(struct Address) * conn->db->max_rows);
 		if(!conn->db->rows) die("Memory error", conn);
 
