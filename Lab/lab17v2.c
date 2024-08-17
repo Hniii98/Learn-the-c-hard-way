@@ -239,7 +239,7 @@ void Database_list(struct Connection *conn)
 }
 
 /*
- * 通过name查找数据
+ * 通过name查找数据库中的数据
  */
 void Database_find(struct Connection *conn, const char *name)
 {
@@ -257,16 +257,19 @@ void Database_find(struct Connection *conn, const char *name)
 	}
 }
 
+struct Connection *conn; // 全局变量
+
 int main(int argc, char *argv[])
 {
 	if(argc < 3) die("USAGE: Lab17 <dbfile> <action> [action params]", NULL);
 
 	char *filename = argv[1];
-	char action = argv[2][0]; // second parameter's first char eg. /lab17 db.dat c ->  action = 'c'
+	char action = argv[2][0]; // 读取第二参数的首个字符
 	
-	int max_data = 512; // default value
-	int max_rows = 100; // default value
-	if(action == 'c')
+	int max_data = 512; // 默认值
+	int max_rows = 100; // 默认值
+
+	if(action == 'c') // 接收用户输入max_data和max_rows
 	{
 		printf("Enter the value of max_data:");
 		scanf("%d", &max_data);
@@ -274,7 +277,7 @@ int main(int argc, char *argv[])
 		scanf("%d", &max_rows);
 	}
 	
-	struct Connection *conn = Database_open(filename, action, max_data, max_rows); 
+	conn = Database_open(filename, action, max_data, max_rows);  // 初始化连接
 
 	int id = 0;
 	if(argc > 3) id = atoi(argv[3]);
@@ -333,12 +336,14 @@ int main(int argc, char *argv[])
  *
  *
  *
- *
+ *  
  *  #4
  *  C语言打包结构体时需要进行对齐，具体存在两种情况：
  *  1：每个变量必须以自己最大基本数据类型倍数的地址开始（例如int以4倍数的地址开始），如果不满足，填充，char除外。
  *  2：整个结构体的结束地址必须是最大基本数据类型字节的整数倍。(例如结构体中最大为8字节，结构体大小应为8字节的倍数）
  *  
- *
+ */
  
+
+
 
