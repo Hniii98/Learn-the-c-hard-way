@@ -205,4 +205,10 @@ int main(int argc, char *argv[])
  * #4
  * 运行时，提示发生segment fault
  * 运行valgrind，提示jump into invalid address
+ *
+ * #5
+ * 编写了新的test_sorting_v2,参数列表新增了排序函数，使得test_sorting_v2能够
+ * 接受不同的排序算法及比较运算符
+ *
  */
+ * 
