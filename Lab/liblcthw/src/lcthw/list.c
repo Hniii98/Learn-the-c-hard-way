@@ -199,6 +199,12 @@ void List_check_invariants(List *list)
  *  list_tests -ldl
  *
  *  运行正常，./list_tests也都pass，后续学完Makefile再来Debug
+ *  又经过了1一个小时的排查，最终发现，是链接顺序的问题。链接静态库必须在源文件之后。
+ *  于是在Makefile文件中添加如下代码：
+ *  tests/%: tests/%.c $(TARGET)
+ *	$(CC) $(CFLAGS) $(LIBS) -o $@ $< $(TARGET)、
+ *	最终make顺利执行。终于解决了。
  */
+
    
 

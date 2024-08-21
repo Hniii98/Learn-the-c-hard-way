@@ -19,7 +19,7 @@ SO_TARGET=$(patsubst %.a,%.so,$(TARGET))
 all: $(TARGET) $(SO_TARGET) tests
 
 
-dev: CFLAGS=-g -Wall -Isrc -Wall -Wextra $(OPTFLAGS)
+dev: CFLAGS=-g -Wall -Wextra -Isrc $(OPTFLAGS)
 dev: all
 
 
@@ -42,6 +42,16 @@ build:
 tests: CFLAGS += $(TARGET)
 tests: $(TESTS)
 	sh ./tests/runtests.sh
+
+# tests: $(TESTS)
+#	$(CC) $(CFLAGS) $(LIBS) -o tests/list_tests $(TESTS) $(TARGET)
+#	sh ./tests/runtests.sh
+
+#tests/list_tests: tests/list_tests.c build/liblcthw.a
+#	$(CC) $(CFLAGS) $(LIBS) -o tests/list_tests tests/list_tests.c build/liblcthw.a
+
+tests/%: tests/%.c $(TARGET)
+	$(CC) $(CFLAGS) $(LIBS) -o $@ $< $(TARGET)
 
 
 valgrind:
