@@ -66,10 +66,10 @@ char *test_merge_sort()
     mu_assert(is_sorted(res), "Words are not sorted after merge sort.");
 
     List *res2 = List_merge_sort(res, (List_compare)strcmp);
-    mu_assert(is_sorted(res), "Should still be sorted after merge sort.");
-    List_destroy(res2);
-    List_destroy(res);
-
+    mu_assert(is_sorted(res2), "Should still be sorted after merge sort.");
+   	//List_destroy(res2);
+   	//List_destroy(res);  更改后的写法返回的都是同一个list,所以不需要多次List_destory
+	//  否则会double free							
     List_destroy(words);
     return NULL;
 }
@@ -80,7 +80,7 @@ char *all_tests()
     mu_suite_start();
 
     mu_run_test(test_bubble_sort);
-    mu_run_test(test_merge_sort);
+   	mu_run_test(test_merge_sort);
 
     return NULL;
 }

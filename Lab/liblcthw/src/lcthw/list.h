@@ -36,6 +36,13 @@ void *List_shift(List *list);
 
 void *List_remove(List *list, ListNode *node);
 
+/*
+ * LIST_FOREACH中V和_node都不可或缺，因为ListNode对应的value也是一个链表
+ * 此时，V可以用来遍历整个子链表，而_node持有父链表的正确节点进行下一个
+ * 遍历。
+ *
+ */
+ 
 #define LIST_FOREACH(L, S, M, V) ListNode *_node = NULL;\
 	ListNode *V = NULL;\
 	for(V = _node = L->S; _node != NULL; V = _node = _node->M)

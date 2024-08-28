@@ -15,10 +15,16 @@ void List_destroy(List *list)
 	LIST_FOREACH(list, first, next, cur)
 	{
 		free(cur->prev);
+		cur->prev = NULL;
 	}
 	
-	if(list->last) free(list->last);
+	if(list->last) 
+	{
+		free(list->last);
+		list->last = NULL;
+	}
 	free(list);
+	list = NULL;
 }
 
 void List_clear(List *list)
@@ -28,6 +34,7 @@ void List_clear(List *list)
 	LIST_FOREACH(list, first, next, cur)
 	{
 		free(cur->value); // 释放每个节点的值，而不是节点本身
+		cur->value = NULL;
 	}
 }
 
@@ -43,6 +50,8 @@ void List_clear_destroy(List *list)
 		{
 			free(cur->prev->value);
 			free(cur->prev);
+			cur->prev->value = NULL;
+			cur->prev = NULL;
 		}
 	}
 
@@ -50,9 +59,12 @@ void List_clear_destroy(List *list)
 	{
 		free(list->last->value); // 必须保证list->last为NULL，不然list->last->value为对NULL解引用
 		free(list->last); 
+		list->last->value = NULL;
+		list->last = NULL;
 	}
 
 	free(list);
+	list = NULL;
 	//assert(list != NULL);
 }
 
@@ -140,12 +152,12 @@ void *List_remove(List *list, ListNode *node)
 	}
 	else if(node == list->first) // 多节点删除头结点
 	{
-		list->first = node->next;
+list->first = node->next;
 		check(list->first != NULL, " Invalid list, somehow got a first that is NULL. ");
 		list->first->prev = NULL;
 	}
 	else if(node == list->last) // 多节点删除尾节点
-	{
+{
 		list->last = node->prev;
 		check(list->last != NULL, " Invalid list, somehow got a next that is NULL .");
 		list->last->next = NULL;
@@ -161,6 +173,7 @@ void *List_remove(List *list, ListNode *node)
 	list->count--;
 	result = node->value;
 	free(node);
+	node = NULL;
 
 error:
 	return result;
