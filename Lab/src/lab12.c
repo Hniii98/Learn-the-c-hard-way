@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 
 	if(argc == 1)
 	{
-		printf("You only have one argument. You suck \n");
+		printf("You only have one argument. You suck. \n");
 	}
 	else if(argc > 1 && argc < 4)
 	{

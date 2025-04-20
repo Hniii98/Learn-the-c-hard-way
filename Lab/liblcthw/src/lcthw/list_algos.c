@@ -82,7 +82,7 @@ ListNode *List_merge(ListNode *left, ListNode *right, List_compare cmp)
 {
 	ListNode *dummy = calloc(1, sizeof(ListNode));
 	//check_mem(dummy);
-	if(dummy == NULL) printf("1111111111111111"); 
+	if(dummy == NULL) printf("Memory calloc error!\n"); 
 
 	ListNode *cur = dummy; // 循环变量
 	
@@ -206,3 +206,24 @@ List *List_merge_sort(List *list, List_compare cmp)
     return List_merge(sort_left, sort_right, cmp);
 }
 */
+
+
+/*
+ *  #1
+ *  	使用time()和difftime()函数分别测试两个函数的运行时间，在链表长度为5，
+ *  	循环次数为1千万次的前提下。merge_sort运行时间为3s，但是函数中进行了两次的排序
+ *  	，所以是1.5s, bubble_sort运行时间为2s。
+ *
+ *  #2
+ *  	将链表长度增加到7循环次数保持1千万次，merge_sort运行时间多了0.5s,bubble_sort多了1s
+ *  	。
+ *
+ *  #4
+ *  	链表排序之所以麻烦在于: 1. 排序时，链表的split无法在O(1)下完成，需要对链表进行遍历
+ *  	同时，链表交换节点的操作比数组交换复杂 2. 排序完成后，头结点需要重新链接到新的头
+ *  	和尾节点。
+ *
+ *  #5 
+ *  	插入后在排序，插入的操作可以直接在头节点完成，仅仅需要O(1)的复杂度。
+ *  	排序后在插入，则需要对链表进行遍历，需要O(n)的复杂度。
+ */

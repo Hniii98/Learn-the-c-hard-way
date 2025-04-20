@@ -41,6 +41,8 @@ void *List_remove(List *list, ListNode *node);
  * 此时，V可以用来遍历整个子链表，而_node持有父链表的正确节点进行下一个
  * 遍历。
  *
+ * L: 链表头, S: 起始成员, M: 下一个成员, V: 当前节点变量名
+
  */
  
 #define LIST_FOREACH(L, S, M, V) ListNode *_node = NULL;\
@@ -48,6 +50,7 @@ void *List_remove(List *list, ListNode *node);
 	for(V = _node = L->S; _node != NULL; V = _node = _node->M)
 
 #endif
+
 
 
 

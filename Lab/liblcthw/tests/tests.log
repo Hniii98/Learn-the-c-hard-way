@@ -269,3 +269,958 @@ DEBUG tests/list_tests.c:107:
 ----- test_shift
 DEBUG tests/list_tests.c:108: 
 ----- test_destroy
+DEBUG tests/list_algos_tests.c:118: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:110: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:111: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:118: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:110: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:111: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:118: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:110: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:111: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:118: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:110: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:111: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:119: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:111: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:112: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:120: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:112: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:113: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:122: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:114: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:115: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+[ERROR] (tests/stack_tests.c:42: errno: None) Wrong value on pop.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+[ERROR] (tests/queue_tests.c:31: errno: None) Wrong next value.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:90: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:82: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:27: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:90: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:82: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:83: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:27: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:64: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:57: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:28: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:65: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:59: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+[ERROR] (tests/ringbuffer_tests.c:29: errno: None) Available data should match written length.
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:63: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:56: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:57: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+DEBUG tests/ringbuffer_tests.c:58: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:45: ----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:121: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:113: 
+----- bubble_sort_loop
+DEBUG tests/list_algos_tests.c:114: 
+----- merge_sort_loop
+DEBUG tests/list_tests.c:113: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:103: 
+----- test_create
+DEBUG tests/list_tests.c:104: 
+----- test_push_pop
+DEBUG tests/list_tests.c:105: 
+----- test_unshift
+DEBUG tests/list_tests.c:106: 
+----- test_remove
+DEBUG tests/list_tests.c:107: 
+----- test_shift
+DEBUG tests/list_tests.c:108: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:62: ----- RUNNING: ./tests/ringbuffer_tests
+DEBUG tests/ringbuffer_tests.c:55: 
+----- test_create
+DEBUG tests/ringbuffer_tests.c:11: ----- test_create
+DEBUG tests/ringbuffer_tests.c:56: 
+----- test_read_write
+DEBUG tests/ringbuffer_tests.c:21: ----- test_read_write
+DEBUG tests/ringbuffer_tests.c:57: 
+----- test_destroy
+DEBUG tests/ringbuffer_tests.c:44: ----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy

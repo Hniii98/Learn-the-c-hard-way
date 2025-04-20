@@ -2,9 +2,12 @@
 #include "lcthw/list_algos.h"
 #include <assert.h>
 #include <string.h>
+#include <time.h>
+#include <unistd.h>
 
-char *values[] = {"XXXX", "1234", "abcd", "xjvef", "NDSS"};
-#define NUM_VALUES 5
+
+char *values[] = {"XXXX", "1234", "abcd", "xjvef", "NDSS", "aacc", "scg12"};
+#define NUM_VALUES 7
 
 List *create_words()
 {
@@ -74,13 +77,43 @@ char *test_merge_sort()
     return NULL;
 }
 
+char *merge_sort_loop()
+{
+	int loops = 10000000;
+	time_t start_time, end_time;
+	time(&start_time);
+	while(loops--) test_merge_sort();
+	time(&end_time);
+	double seconds = difftime(end_time, start_time);
+
+	printf("Loop merge sort: 1kw times spend %.2f seconds\n", seconds);
+
+	return NULL;
+}
+
+char *bubble_sort_loop()
+{
+	int loops = 10000000;
+	time_t start_time, end_time;
+	time(&start_time);
+	while(loops--) test_bubble_sort();
+	time(&end_time);
+	double seconds = difftime(end_time, start_time);
+
+	printf("Loop bubble sort: 1kw times spend %.2f seconds\n", seconds);
+	
+	return NULL;
+}
+
 
 char *all_tests()
 {
     mu_suite_start();
 
-    mu_run_test(test_bubble_sort);
-   	mu_run_test(test_merge_sort);
+	mu_run_test(bubble_sort_loop);
+	mu_run_test(merge_sort_loop);
+    //mu_run_test(test_bubble_sort);
+   //	mu_run_test(test_merge_sort);
 
     return NULL;
 }

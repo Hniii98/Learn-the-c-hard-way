@@ -152,12 +152,12 @@ void *List_remove(List *list, ListNode *node)
 	}
 	else if(node == list->first) // 多节点删除头结点
 	{
-list->first = node->next;
+		list->first = node->next;
 		check(list->first != NULL, " Invalid list, somehow got a first that is NULL. ");
 		list->first->prev = NULL;
 	}
 	else if(node == list->last) // 多节点删除尾节点
-{
+	{
 		list->last = node->prev;
 		check(list->last != NULL, " Invalid list, somehow got a next that is NULL .");
 		list->last->next = NULL;
