@@ -14,6 +14,6 @@ lab% : src/lab%.c
 
 
 clean:
-	rm -f $(TARGETS) *.o
+	rm -f $(TARGETS) *.o db.dat
 
 

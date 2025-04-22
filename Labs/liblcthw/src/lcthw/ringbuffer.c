@@ -32,7 +32,7 @@ int RingBuffer_write(RingBuffer *buffer, char *data, int length)
     }
 
     check(length <= RingBuffer_available_space(buffer),
-            "Not enough space: %d request, %d available",
+            "Not enough space: %d available, %d requeset",
             RingBuffer_available_data(buffer), length);
 
     void *result = memcpy(RingBuffer_ends_at(buffer), data, length);

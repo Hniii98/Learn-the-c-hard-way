@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 	}
 	
 	int len = sizeof(names) / sizeof(names[0]);
-	print_name(&names[0], len);i // 如果传入&name, 那类型是函数指针。
+	print_name(&names[0], len); // 如果传入&name, 那类型是函数指针。
 								 // names 是一个 char* 类型的数组，即 char *names[]. 当你传递 names 到函数时，
 								 // 它会被隐式地转换为 char** 类型。这是因为数组名在表达式中总是会被转换为指向其
 								 // 第一个元素的指针。所以 names 实际上会被转换为 char**，即 &names[0]。
